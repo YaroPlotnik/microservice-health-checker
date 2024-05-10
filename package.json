@@ -1,6 +1,6 @@
 {
   "name": "microservice-health-checker",
-  "version": "1.0.0", 
+  "version": "1.0.1",
   "description": "This is a simple microservice health checker package built in Node.js. It allows you to monitor the health of various microservices by periodically sending HTTP requests to their health endpoints and logging the results.",
   "main": "./src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "" // репозиторий (заполним чуть позже)
+    "url": "https://github.com/YaroPlotnik/microservice-health-checker"
   },
   "keywords": [
     "microservice",
@@ -16,5 +16,8 @@
     "checker"
   ],
   "author": "YaroPlotnik",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "svg-icon-toolkit": "^1.0.1"
+  }
 }
